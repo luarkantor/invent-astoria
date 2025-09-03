@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Albra Sans';
+  src: url('/assets/fonts/AlbraTRIAL/AlbraSansTRIAL-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'adega-serif';
+  src: url('/assets/fonts/adega-serif/ADega_Serif_Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+/* Custom class menggunakan @apply */
+@layer components {
+    .section-navbar{
+       @apply  border  border-blue-500 h-[90px]
+    }
+    .section-hero{
+        @apply  h-[810px]
+    }
+    .section-summary{
+        @apply  h-[468px] flex items-center justify-center
+    }
+    .section-visi{
+        @apply  h-[860px]
+    }
+    .section-product{
+        @apply  h-[2237px]
+    }
+    .section-footer{
+        @apply  h-[504px]
+    }
+    .section-credit{
+        @apply  h-[75px]
+    }
+}
+
