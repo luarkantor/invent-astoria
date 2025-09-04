@@ -19,7 +19,7 @@
           <NuxtLink to="/career">Career</NuxtLink>
         </li>
         <li>
-          <NuxtLink to="/faq">FAQ</NuxtLink>
+          <NuxtLink to="">FAQ</NuxtLink>
         </li>
       </ul>
     </nav>
@@ -29,12 +29,7 @@
           <NuxtLink to="/about">EN|ID</NuxtLink>
         </li>
         <li>
-          <button class="bg-[#B12024] flex items-center p-2 ps-4 gap-2 rounded-full text-white">
-            <span>Contact us</span>
-            <div class="bg-white rounded-full p-2 h-[40px] w-[40px] flex items-center">
-              <Icon name="tabler:arrow-narrow-right" size="28px" style="color:#B12024" />
-            </div>
-          </button>
+          <Buttonlink label="Contact Us"/>
         </li>
       </ul>
     </nav>

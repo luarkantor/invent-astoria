@@ -20,20 +20,16 @@ definePageMeta({
                         view more
                     </p>
                 </div>
+                <div class="w-[315px]">
+                    <p class="font-nato text-[30px] text-[#B12024] font-semibold">Get to know us</p>
+                    <p class="font-lato text-[18px] font-medium text-[#404041]">We craft high-quality cosmetics to
+                        enhance your
+                        natural beauty, with every detail from formulation to packaging handled with care.</p>
+                    <Buttonlink label="Learn More" />
+                </div>
             </div>
             <img src="/images/hero-r.png" class="h-full" />
-            <div class="social absolute  bottom-28 flex flex-col gap-[20px]">
-                <button class="bg-[#404041] w-[44px] aspect-square rounded-full items-center flex justify-center">
-                    <Icon name="tabler:brand-linkedin" size="28px" style="color:#FFFFFF" />
-                </button>
-                <button class="bg-[#404041] w-[44px] aspect-square rounded-full items-center flex justify-center">
-                    <Icon name="tabler:brand-instagram" size="28px" style="color:#FFFFFF" />
-                </button>
-                <button class="bg-[#3CD957] w-[44px] aspect-square rounded-full items-center flex justify-center">
-                    <Icon name="tabler:brand-whatsapp" size="28px" style="color:#FFFFFF" />
-                </button>
 
-            </div>
         </div>
         <div class="section-summary">
             <div class=" flex justify-evenly w-full">
@@ -57,26 +53,39 @@ definePageMeta({
             <span class="font-adega text-[80px] font-bold">Your Idea,</span>
             <span class="font-adega text-[80px] text-[#B12024] font-bold">Our Solution,</span>
         </div>
-        <div class="section-product p-[214px] bg-purple-100 flex flex-col items-center">
-            <div class="flex gap-4">
-                <span class="font-adega text-[62px] font-bold">Our Beauty </span>
-                <span class="font-adega text-[62px] text-[#B12024] font-bold"> Certifications</span>
-            </div>
-            <div class="flex gap-[103px] mt-[86px]">
-                <img src="/logos/ISO.png" class="w-[118px] h-[118px]"/>
-                <img src="/logos/Halal.png" class="w-[68px] h-[123px]"/>
-                <img src="/logos/Badan_POM.png" class="w-[125px] h-[113px]"/>
-            </div>
-             <div class="flex gap-4 pt-[321px]">
-                <span class="font-adega text-[62px] font-bold">Who Trust Our </span>
-                <span class="font-adega text-[62px] text-[#B12024] font-bold">  Expertise</span>
-            </div>
-             <div class="flex gap-4 pt-[321px]">
-                <span class="font-adega text-[62px] font-bold">Who Trust Our </span>
-                <span class="font-adega text-[62px] text-[#B12024] font-bold">  Expertise</span>
+        <div
+            class="section-product bg-[url('/images/bg_red.png')] bg-cover bg-center items-center flex flex-col justify-center">
+            <p class="font-lato text-[40px] text-white">Our Product</p>
+            <div class="w-[50%] text-center">
+                <div class="font-adega text-[80px] text-white ">Decorative</div>
+                <div class="font-adega text-[80px] text-white ">Scincare</div>
+                <div class="font-adega text-[80px] text-white ">Body Care</div>
+                <div class="font-adega text-[80px] text-white ">Hair Care</div>
             </div>
         </div>
-        <div class="section-footer  bg-[url('/images/footer_bg.png')] bg-cover bg-center items-center flex justify-center">
+        <div class="w-full flex flex-col justify-center">
+             <div class="flex flex-col justify-center w-full">
+                 <div class="flex gap-4">
+                    <span class="font-adega text-[62px] font-bold">Our Beauty </span>
+                    <span class="font-adega text-[62px] text-[#B12024] font-bold"> Certifications</span>
+                             </div>
+                             <div class="flex gap-[103px] mt-[86px]">
+                    <img src="/logos/ISO.png" class="w-[118px] h-[118px]" />
+                    <img src="/logos/Halal.png" class="w-[68px] h-[123px]" />
+                    <img src="/logos/Badan_POM.png" class="w-[125px] h-[113px]" />
+                             </div>
+             </div>
+            <div class="flex flex-col w-full">
+                <div class="flex gap-4 justify-center">
+                    <span class="font-adega text-[62px] font-bold">Our Beauty </span>
+                    <span class="font-adega text-[62px] text-[#B12024] font-bold"> Certifications</span>
+                </div>
+                <div class="w-full bg-red-500">asdsad</div>
+            </div>
+        </div>
+
+        <div
+            class="section-footer  bg-[url('/images/footer_bg.png')] bg-cover bg-center items-center flex justify-center">
             <div class="flex gap-4">
                 <div class="flex items-center pr-[143px]">
                     <div>
@@ -114,7 +123,7 @@ definePageMeta({
                             <p class="text-sm mb-2 font-lato">Email</p>
                             <p class="text-lg ">cs@astoriaprima.com</p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
