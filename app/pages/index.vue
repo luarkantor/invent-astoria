@@ -76,11 +76,14 @@ definePageMeta({
                              </div>
              </div>
             <div class="flex flex-col w-full">
-                <div class="flex gap-4 justify-center">
-                    <span class="font-adega text-[62px] font-bold">Our Beauty </span>
-                    <span class="font-adega text-[62px] text-[#B12024] font-bold"> Certifications</span>
+                <div class="flex gap-4 justify-center mb-[113px]">
+                    <span class="font-adega text-[62px] font-bold">Who Trust Our </span>
+                    <span class="font-adega text-[62px] text-[#B12024] font-bold"> Expertise</span>
                 </div>
-                <div class="w-full bg-red-500">asdsad</div>
+                <div class="w-full flex flex-col mb-[113px]">
+                    <img src="/images/partner.png" class=""/>
+                    <img src="/images/partner.png"/>
+                </div>
             </div>
         </div>
 
