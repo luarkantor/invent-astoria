@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white/80 backdrop-blur-sm flex  w-[1440px] items-center fixed justify-between top-0 z-50">
-     <NuxtLink to="/"><img src="/images/logo_astoria.png" /></NuxtLink>
+    <NuxtLink to="/"><img src="/images/logo_astoria.png" /></NuxtLink>
     <nav>
       <ul class="font-noto font-bold">
         <li>
@@ -29,7 +29,7 @@
           <NuxtLink to="/lang"><strong>EN</strong>|ID</NuxtLink>
         </li>
         <li>
-          <Buttonlink label="Contact Us"/>
+          <Buttonlink label="Contact Us" />
         </li>
       </ul>
     </nav>
@@ -56,17 +56,16 @@ nav li a {
   text-decoration: none;
   color: #404041;
   font-weight: 500;
-  padding:10px;
+  padding: 10px;
   transition: color 0.2s ease;
 }
 
-nav li a:hover {
-  
-}
+nav li a:hover {}
 
 nav li a.router-link-exact-active {
   font-weight: 600;
   background-image: url('/icons/triangle.svg');
   background-repeat: no-repeat;
 }
+
 </style>

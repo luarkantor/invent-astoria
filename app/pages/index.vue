@@ -63,26 +63,26 @@ definePageMeta({
                 <div class="font-adega text-[80px] text-white ">Hair Care</div>
             </div>
         </div>
-        <div class="w-full flex flex-col justify-center">
-             <div class="flex flex-col justify-center w-full">
-                 <div class="flex gap-4">
+        <div class="flex flex-col">
+            <div class="flex flex-col bg-sky-500 my-[321px]">
+                <div class="flex gap-4">
                     <span class="font-adega text-[62px] font-bold">Our Beauty </span>
                     <span class="font-adega text-[62px] text-[#B12024] font-bold"> Certifications</span>
-                             </div>
-                             <div class="flex gap-[103px] mt-[86px]">
+                </div>
+                <div class="flex gap-[103px] mt-[86px]">
                     <img src="/logos/ISO.png" class="w-[118px] h-[118px]" />
                     <img src="/logos/Halal.png" class="w-[68px] h-[123px]" />
                     <img src="/logos/Badan_POM.png" class="w-[125px] h-[113px]" />
-                             </div>
-             </div>
+                </div>
+            </div>
             <div class="flex flex-col w-full">
                 <div class="flex gap-4 justify-center mb-[113px]">
                     <span class="font-adega text-[62px] font-bold">Who Trust Our </span>
                     <span class="font-adega text-[62px] text-[#B12024] font-bold"> Expertise</span>
                 </div>
-                <div class="w-full flex flex-col mb-[113px]">
-                    <img src="/images/partner.png" class=""/>
-                    <img src="/images/partner.png"/>
+                <div class="w-full flex flex-col mb-[113px] ">
+                    <div><img src="/images/partner.png" class="ml-52" /></div>
+                    <div><img src="/images/partner.png" /></div>
                 </div>
             </div>
         </div>
@@ -136,3 +136,18 @@ definePageMeta({
         </div>
     </NuxtLayout>
 </template>
+<style type="text/css">
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+.marquee-content {
+    animation: marquee 15s linear infinite;
+}
+</style>
